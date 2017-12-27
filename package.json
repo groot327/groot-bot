@@ -9,5 +9,9 @@
   },
   "author": "Groot",
   "license": "None",
-  "dependencies": {}
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "fs": "",
+    "request": "2.81.0"
+  }
 }
