@@ -2,10 +2,10 @@
   "name": "Groot's Discord Bot",
   "version": "0.0.1",
   "description": "Discord bot for Heroku 24/7",
-  "main": "app.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node bot.js"
   },
   "author": "Groot",
   "license": "None",
