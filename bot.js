@@ -67,7 +67,8 @@ bot.on("message", async message => {
   }
 });
 
-bot.login(config.token, loginoutput);
+// bot.login(config.token, loginoutput); // changed from this per video!
+bot.login(process.env.BOT_TOKEN, loginoutput);
 
 function loginoutput(error, token) {
   if (error) {
