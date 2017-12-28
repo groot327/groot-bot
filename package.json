@@ -4,8 +4,7 @@
   "description": "Discord bot for Heroku 24/7",
   "main": "bot.js",
   "engines": {
-    "node": "^8.2.1",
-    "npm": "latest"
+    "node": "^8.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +13,6 @@
   "license": "UNLICENSED",
   "devDependencies": {},
   "dependencies": {
-    "node": "8.2.1",
     "discord.js": "^11.1.0",
     "request": "2.81.0"
   }
