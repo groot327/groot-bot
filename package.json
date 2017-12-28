@@ -4,7 +4,7 @@
   "description": "Discord bot for Heroku 24/7",
   "main": "bot.js",
   "engines": {
-    "node": "latest",
+    "node": "^8.2.1",
     "npm": "latest"
   },
   "scripts": {
