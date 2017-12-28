@@ -7,8 +7,7 @@ bot.on('ready', () => {
   console.log("I am ready!");
 });
 
-bot.on("message", async message => {
-  // So the bot doesn't reply to iteself
+bot.on('message', message => {
   if (message.content === "ping")
     message.reply("pong");
 });
